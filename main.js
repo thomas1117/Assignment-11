@@ -8,7 +8,7 @@ $("#signInButton").on("click",function(){
 });
 
 $("#cat1").hover(function(){
-	$(".catDiv").addClass("displayBlock");
+	$(".catDiv").toggleClass("displayBlock");
 });
 
 
